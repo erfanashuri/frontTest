@@ -7,6 +7,16 @@
     align-items: center !important;
     gap: 0.5rem;
 }
+.w_100{
+    width: 100%;
+}
+.disp-none{
+    display: none;
+}
+
+/* -------------------sidebar & navbar---------------- */
+
+
 .logo{
     display: flex !important;
     justify-content: space-around;
@@ -19,10 +29,60 @@
 .logo img{
     height: 80%;
 }
-.w_100{
-    width: 100%;
+.nav-content{
+    margin-top: 1rem;
 }
+.tab{
+    transition: all 0.3s ease-in-out;
+}
+.nav-extended{
+    box-shadow: none ;
+    padding: 1.5% 1.5% 0% 1.5%;
+}
+.tab.active{
+    border-top: 1px solid #1565c0;
+    border-right: 0.1px solid #1565c0;
+    border-left: 0.1px solid #1565c0;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #fff;
+}
+/* -------------------content---------------- */
+.content-show{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 
-.disp-none{
-    display: none;
+}
+.content-img_1{
+    max-width: 100%;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.content-button__container{
+    min-width: 22rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+.content-button__container a{
+    border-radius: 0.5rem;
+}
+.content-text__container h3{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.content-text__container p{
+    margin-right: 2rem;
+    margin-left: 3rem;
+    text-align: justify;
 }
