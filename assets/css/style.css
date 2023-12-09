@@ -1,3 +1,28 @@
-body{
-    background-color: aqua;
+*{
+    box-sizing: border-box;
+}
+.disp-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    gap: 0.5rem;
+}
+.logo{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem ;
+    width: 16rem;
+    font-size: 2.5rem !important;
+    height: 100%;
+}
+.logo img{
+    height: 80%;
+}
+.w_100{
+    width: 100%;
+}
+
+.disp-none{
+    display: none;
 }
