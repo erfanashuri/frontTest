@@ -16,9 +16,8 @@
 
     <!-- ------------ Nav Bar --------------------------------------- -->
     <nav class="nav-extended indigo lighten-5">
-
+        <!-- logo & menu -->
         <div class="nav-wrapper">     
-
             <a href="#" class="logo brand-logo blue-text text-darken-2">
                 <img src="/assets/images/front-logoNobackground.png" class="circle">
                 <span>Front-End</span>
@@ -33,13 +32,23 @@
             <li><a class="waves-effect blue-text text-darken-4 disp-flex-center" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
           </ul>
         </div>
-
-        <div class="nav-content">
-          <ul class="tabs tabs-transparent">
-            <li class="tab active"><a class="blue-text text-darken-4" href="#test1">Home</a></li>
-            <li class="tab"><a class="blue-text text-darken-4" href="#test2">Users</a></li>            
-          </ul>
+        <!-- search & tabs -->
+        <div class="search-tab__container">
+          <div class="main-search__container">
+            <div class="circle-icon__container">
+              <i class="material-icons blue-text text-darken-4">search</i>
+            </div>
+          <input type="text" class="browser-default main-search__input" placeholder="Search . . .">
+          </div>
+          <div class="nav-content">
+            <ul class="tabs tabs-transparent">
+              <li class="tab active"><a class="blue-text text-darken-4" href="#test1">Home</a></li>
+              <li class="tab"><a class="blue-text text-darken-4" href="#test2">Users</a></li>            
+            </ul>
+          </div>
         </div>
+
+
       </nav>
 
     <!-- ------------ Side Bar --------------------------------------- -->
@@ -66,17 +75,237 @@
       </ul>
     <!-- ------------ Content --------------------------------------- -->
     
-    <section class="content-show container">
-      <img src="/assets/images/content1.png" class="content-img_1" alt="Front End">
-      <div class="content-text__container">
-        <h3>Welcome to Front-End test site...</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit . exahfg Labore molestiae dignissimos asperiores perspiciatis autem consectetur voluptatibus deleniti ex.</p>
-      </div>
-      <div class="content-button__container">
-        <a class="waves-effect waves-light blue darken-2 btn"><i class="material-icons left">code</i>programming toturial</a>
-        <a class="waves-effect waves-light blue darken-2 btn"><i class="material-icons left">people_outline</i>users manager</a>
-    
-    </section>
+    <!-- home -->
+    <div class="screen">
+
+      <section class="usercontent-show ">
+
+        <ul class="collapsible user-list hide-on-large-only">
+          <li class="user-list-item">
+            <div class="collapsible-header user-list-item__head blue-text text-darken-4">
+              <i class="material-icons user-list-item__icon blue-text text-darken-3">arrow_drop_down_circle</i>
+              <span>Erfan Ashuri</span>
+            </div>
+
+            <div class="collapsible-body user-list-item__body blue lighten-5">
+              
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Username :
+                </span>
+                <span class="username">
+                  erfanA
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Email :
+                </span>
+                <span class="email">
+                  ashoryerfan@gmail.com
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Address :
+                </span>
+                <span class="address">
+                  Lorem ipsum dolor consectetur adipisicing.
+                </span>
+              </div>
+
+              <div class="user-list__informations-action">
+                <span class="user-list__informations-header">
+                  Action :
+                </span>
+                <div>
+                  <i class="material-icons yellow-text text-darken-3">create</i>
+                  <i class="material-icons red-text">delete</i>
+                </div>
+              </div>
+            </div>
+  
+          </li>
+          <li class="user-list-item">
+            <div class="collapsible-header user-list-item__head blue-text text-darken-4">
+              <i class="material-icons user-list-item__icon blue-text text-darken-3">arrow_drop_down_circle</i>
+              <span>Erfan Ashuri</span>
+            </div>
+
+            <div class="collapsible-body user-list-item__body blue lighten-5">
+              
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Username :
+                </span>
+                <span class="username">
+                  erfanA
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Email :
+                </span>
+                <span class="email">
+                  ashoryerfan@gmail.com
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Address :
+                </span>
+                <span class="address">
+                  Lorem ipsum dolor consectetur adipisicing.
+                </span>
+              </div>
+
+              <div class="user-list__informations-action">
+                <span class="user-list__informations-header">
+                  Action :
+                </span>
+                <div>
+                  <i class="material-icons yellow-text text-darken-3">create</i>
+                  <i class="material-icons red-text">delete</i>
+                </div>
+              </div>
+            </div>
+  
+          </li> 
+          <li class="user-list-item">
+            <div class="collapsible-header user-list-item__head blue-text text-darken-4">
+              <i class="material-icons user-list-item__icon blue-text text-darken-3">arrow_drop_down_circle</i>
+              <span>Erfan Ashuri</span>
+            </div>
+
+            <div class="collapsible-body user-list-item__body blue lighten-5">
+              
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Username :
+                </span>
+                <span class="username">
+                  erfanA
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Email :
+                </span>
+                <span class="email">
+                  ashoryerfan@gmail.com
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Address :
+                </span>
+                <span class="address">
+                  Lorem ipsum dolor consectetur adipisicing.
+                </span>
+              </div>
+
+              <div class="user-list__informations-action">
+                <span class="user-list__informations-header">
+                  Action :
+                </span>
+                <div>
+                  <i class="material-icons yellow-text text-darken-3">create</i>
+                  <i class="material-icons red-text">delete</i>
+                </div>
+              </div>
+            </div>
+  
+          </li>
+          <li class="user-list-item">
+            <div class="collapsible-header user-list-item__head blue-text text-darken-4">
+              <i class="material-icons user-list-item__icon blue-text text-darken-3">arrow_drop_down_circle</i>
+              <span>Erfan Ashuri</span>
+            </div>
+
+            <div class="collapsible-body user-list-item__body blue lighten-5">
+              
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Username :
+                </span>
+                <span class="username">
+                  erfanA
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Email :
+                </span>
+                <span class="email">
+                  ashoryerfan@gmail.com
+                </span>
+              </div>
+
+              <div class="user-list__informations">
+                <span class="user-list__informations-header">
+                  Address :
+                </span>
+                <span class="address">
+                  Lorem ipsum dolor consectetur adipisicing.
+                </span>
+              </div>
+
+              <div class="user-list__informations-action">
+                <span class="user-list__informations-header">
+                  Action :
+                </span>
+                <div>
+                  <i class="material-icons yellow-text text-darken-3">create</i>
+                  <i class="material-icons red-text">delete</i>
+                </div>
+              </div>
+            </div>
+  
+          </li>      
+        </ul>
+
+        <table class="striped hide-on-med-and-down">
+          <thead>
+            <tr>
+                <th>Name</th>
+                <th>Item Name</th>
+                <th>Item Price</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>Alvin</td>
+              <td>Eclair</td>
+              <td>$0.87</td>
+            </tr>
+            <tr>
+              <td>Alan</td>
+              <td>Jellybean</td>
+              <td>$3.76</td>
+            </tr>
+            <tr>
+              <td>Jonathan</td>
+              <td>Lollipop</td>
+              <td>$7.00</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+
+    </div>
+
+
+    <!-- users -->
+
 
 
 
