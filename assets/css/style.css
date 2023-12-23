@@ -45,6 +45,7 @@
     background-color: #fff;
     border-radius: 2rem;
     transition: all 500ms ease-in-out;
+    margin-bottom: 1rem;
 }
 .circle-icon__container{
     background-color: #e3f2fd ;
@@ -132,17 +133,8 @@
     align-self: center;
     border-radius: 0.5rem;
 }
-.user-list{
-
-}
-.user-list-item{
-
-}
 .user-list-item__head{
     transition: color 500ms ease-in-out;
-}
-.user-list-item__body{
-
 }
 .user-list-item__icon{
     transition: all 500ms ease-in-out;
@@ -150,9 +142,6 @@
 .user-list-item.active .user-list-item__icon{
     transform: rotate(180deg);
     transition: all 500ms ease-in-out;
-}
-.user-list__information{
-    
 }
 .user-list__informations-header{
     font-weight: 600;

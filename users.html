@@ -18,7 +18,7 @@
     <nav class="nav-extended indigo lighten-5">
         <!-- logo & menu -->
         <div class="nav-wrapper">     
-            <a href="#" class="logo brand-logo blue-text text-darken-2">
+            <a href="index.html" class="logo brand-logo blue-text text-darken-2">
                 <img src="/assets/images/front-logoNobackground.png" class="circle">
                 <span>Front-End</span>
             </a>
@@ -70,22 +70,65 @@
 
       </ul>
    <!-- ------------ Content --------------------------------------- -->
-   <section class="content-show container">
-      <img src="/assets/images/content1.png" class="content-img_1" alt="Front End"><div class="content-text__container">
-      <h3>Welcome to Front-End test site...</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit . exahfg Labore molestiae dignissimos asperiores perspiciatis autem consectetur voluptatibus deleniti ex.</p>
-      
-      </div><div class="content-button__container">
-      
-      <a class="waves-effect waves-light blue darken-2 btn"><i class="material-icons left">code</i>programming toturial</a>
-      
-      <a href="users.html" class="waves-effect waves-light blue darken-2 btn"><i class="material-icons left">people_outline</i>users manager</a>
+   <section class="usercontent-show container">
+
+    <ul class="collapsible user-list hide-on-large-only">      
+    </ul>
+
+    <table class="striped container hide-on-med-and-down">
+      <thead>
+        <tr>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody id="table">
+      </tbody>
+    </table>
+
+    <!-- add button & modal -->
+    <a id="add-user__button" class="waves-effect waves-light btn"><i class="material-icons left">group_add</i>add user</a>
+
+    <div class="add-user__background disp-none"></div>
+
+    <div class="add-user__modal container">
+      <span class="add-user__modal__header">
+        <i class="material-icons">person_add</i>Add User
+      </span>
+
+      <div class="input-field col s12">
+        <input id="Name" type="text" class="validate">
+        <label for="Name">Name</label>
+      </div>
+      <div class="input-field col s12">
+        <input id="username" type="text" class="validate">
+        <label for="username">Username</label>
+      </div>
+      <div class="input-field col s12">
+        <input id="address" type="text" class="validate">
+        <label for="address">Address</label>
+      </div>
+      <a class="waves-effect waves-light btn"><i class="material-icons left">done</i>Submit</a>
+    </div>
     
-    </section>
+
+    <!-- pagination -->
+    <ul class="pagination container">
+      <li class="waves-effect"><a href="#!"><i class="blue-text text-darken-3 material-icons">chevron_left</i></a></li>
+
+      <li class="waves-effect"><a href="#!"><i class="blue-text text-darken-3 material-icons">chevron_right</i></a></li>
+    </ul>
+
+  </section>
 
      
     <script src="/assets/materialize/js/materialize.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/users.js"></script>
 </body>
 
 </html>
