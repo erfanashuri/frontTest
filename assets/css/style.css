@@ -1,5 +1,15 @@
 *{
     box-sizing: border-box;
+    color: var(--text-color) !important;
+}
+:root{
+    --first-color:#fff;
+    --text-color:#0d47a1;
+    --sec-color:#bbdefb;
+}
+.btn{
+    background-color: var(--sec-color);
+    
 }
 .disp-flex-center{
     display: flex;
@@ -13,10 +23,18 @@
 .disp-none{
     display: none;
 }
-
+body{
+    background-color: var(--first-color);
+}
 /* -------------------sidebar & navbar---------------- */
-
-
+.nav-extended{
+    background-color:  var(--sec-color);
+    transition: all 500ms ease-in-out;
+}
+.sidenav{
+    background-color: var(--first-color);
+    
+}
 .logo{
     display: flex !important;
     justify-content: space-around;
@@ -35,14 +53,16 @@
 
 .search-tab__container{
     display: flex;
-    flex-direction: column;
+    /* position: relative; */
 }
-
+.switch-container{
+    display: none;
+}
 .main-search__container{
     display: flex;
     height: 3.5rem;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--first-color);
     border-radius: 2rem;
     transition: all 500ms ease-in-out;
     margin-bottom: 1rem;
@@ -55,14 +75,25 @@
     align-items: center;
     border-radius: 100%;
 }
+
+.switch-container-nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    justify-content: center;
+    gap: 0.2rem;
+}
 .main-search__input{
     outline: none;
     border: none;
-    background-color: #fff;
+    background-color: var(--first-color);
     width: 80%;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1.5rem;
+    transition: all 500ms ease-in-out;
     color: #1565c0;
 }
 
@@ -73,13 +104,7 @@
     box-shadow: none ;
     padding: 1.5% 1.5% 0% 1.5%;
 }
-.tab.active{
-    border-top: 1px solid #1565c0;
-    border-right: 0.1px solid #1565c0;
-    border-left: 0.1px solid #1565c0;
-    border-radius: 1rem 1rem 0 0;
-    background-color: #fff;
-}
+
 /* -------------------content---------------- */
 /* home */
 .content-show{
@@ -89,7 +114,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-
+    transition: all 500ms ease-in-out;
 }
 .content-img_1{
     max-width: 100%;
@@ -126,15 +151,17 @@
     display: flex;
     padding: 3%;
     flex-direction: column;
+    transition: all 500ms ease-in-out;
 }
 .usercontent-show .btn{
-    background-color: #90caf9;
+    background-color: var(--sec-color);
     width: 80%;
     align-self: center;
     border-radius: 0.5rem;
 }
 .user-list-item__head{
     transition: color 500ms ease-in-out;
+    background-color: var(--first-color);
 }
 .user-list-item__icon{
     transition: all 500ms ease-in-out;
@@ -147,7 +174,7 @@
     font-weight: 600;
 }
 .user-list-item.active .user-list-item__head{
-    background-color: #e8eaf6;
+    background-color: var(--sec-color);
     transition: color 500ms ease-in-out;
 }
 .user-list__informations-action{
@@ -163,7 +190,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: var(--first-color);
     padding-bottom: 2%;
 }
 .pagination li.active {
@@ -185,7 +212,7 @@
     bottom: -70vh;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: var(--first-color);
     height: 70vh;
     z-index: 1000;
     border-radius: 1.5rem 1.5rem 0 0;
@@ -207,7 +234,12 @@
     font-weight: 600;
     color:#1565c0;
 }
-
+.switch label input[type=checkbox]:checked + .lever{
+    background-color: #0d47a1;
+}
+.switch label input[type=checkbox]:checked + .lever:after{
+    background-color: #1976d2;
+}
 input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   color: #1565c0;
 }
@@ -252,7 +284,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
         justify-self: flex-end;
         margin-right: 1rem;
         margin-top: 0.9rem;
-        background-color: #64b5f6;
+        
     }
 }
 
@@ -284,14 +316,19 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
     .search-tab__container{
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+    }
+    .switch-container{
+        display: flex;
+        align-items: center;
+        
     }
     .main-search__container{
     display: flex;
     height: 3.5rem;
     width: 60%;
-    background-color: #fff;
+    background-color: var(--first-color);
     border-radius: 2rem;
     }
     .usercontent-show .btn{

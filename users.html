@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Front-End</title>
-    <link rel="shortcut icon" href="/assets/images/front-logoNobackground.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/images/front-logoNobackground.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/materialize/css/materialize.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
@@ -15,64 +15,79 @@
 <body>
 
     <!-- ------------ Nav Bar --------------------------------------- -->
-    <nav class="nav-extended indigo lighten-5">
-        <!-- logo & menu -->
-        <div class="nav-wrapper">     
-            <a href="index.html" class="logo brand-logo blue-text text-darken-2">
-                <img src="/assets/images/front-logoNobackground.png" class="circle">
-                <span>Front-End</span>
-            </a>
+    <nav class="nav-extended">
+      <!-- logo & menu -->
+      <div class="nav-wrapper">     
+          <a href="index.html" class="logo brand-logo blue-text text-darken-2">
+              <img src="/assets/images/front-logoNobackground.png" class="circle">
+              <span>Front-End</span>
+          </a>
 
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons blue-text text-darken-4">menu</i></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons">menu</i></a>
 
-          <ul id="nav-mobile" class="right hide-on-med-and-down ">
-            <li><a class="waves-effect blue-text text-darken-4 disp-flex-center" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
-            <li><a class="waves-effect blue-text text-darken-4 disp-flex-center" href="#!"><i class="material-icons">shop</i>Shop</a></li>
-            <li><a class="waves-effect blue-text text-darken-4 disp-flex-center" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
-            <li><a class="waves-effect blue-text text-darken-4 disp-flex-center" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
-          </ul>
-        </div>
-        <!-- search & tabs -->
-        <div class="search-tab__container">
-          <div class="main-search__container">
-            <div class="circle-icon__container">
-              <i class="material-icons blue-text text-darken-4">search</i>
-            </div>
-          <input type="text" class="browser-default main-search__input" placeholder="Search . . .">
+        <ul id="nav-mobile" class="right hide-on-med-and-down ">
+          <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
+          <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">shop</i>Shop</a></li>
+          <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
+          <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
+        </ul>
+      </div>
+      <!-- search-->
+      <div class="search-tab__container">
+        <div class="main-search__container">
+          <div class="circle-icon__container">
+            <i class="material-icons blue-text text-darken-4">search</i>
           </div>
-          <!-- <div class="nav-content">
-            <ul class="tabs tabs-transparent">
-              <li class="tab active"><a class="blue-text text-darken-4" href="#test1">Home</a></li>
-              <li class="tab"><a class="blue-text text-darken-4" href="#test2">Users</a></li>            
-            </ul>
-          </div> -->
+        <input type="text" class="browser-default main-search__input" placeholder="Search . . .">
         </div>
-      </nav>
-    <!-- ------------ Side Bar -------------------------------------- -->
-      <ul class="sidenav indigo lighten-5 " id="mobile-demo">
-        <li><div class="user-view">
-            <div class="background">
-              <img class="w_100" src="/assets/images/workspace1.jpg">
-            </div>
-            <a href="#user"><img class="circle" src="/assets/images/profile.jpg"></a>
-            <a href="#name"><span class="white-text name indigo-text text-darken-4">Erfan Ashuri</span></a>
-            <a href="#email"><span class="white-text email indigo-text text-darken-4">ashoryerfan@gmail.com</span></a>
-          </div></li>
-          <li><a class="waves-effect" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
-          <li><a class="waves-effect" href="#!"><i class="material-icons">shop</i>Shop</a></li>
-          <li><a class="waves-effect" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
-          <li><a class="waves-effect" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
-          <li><div class="divider"></div></li>
-          <li><a class="subheader">Pages</a></li>
-          <li><a class="waves-effect" href="#!">New Items</a></li>
-          <li><a class="waves-effect" href="#!">Home</a></li>
-          <li><a class="waves-effect" href="#!">Users</a></li>
-
-      </ul>
+        <!-- Switch -->
+        <div class="switch">
+          <label class="switch-container">
+            <i class="material-icons">wb_sunny</i>
+            <input type="checkbox" id="theme-changer2">
+            <span class="lever"></span>
+            <i class="material-icons">brightness_3</i>
+          </label>
+        </div>
+      </div>
+    </nav>
+  <!-- ------------ Side Bar -------------------------------------- -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><div class="user-view">
+          <div class="background">
+            <img class="w_100" src="/assets/images/workspace1.jpg">
+          </div>
+          <a href="#user"><img class="circle" src="/assets/images/profile.jpg"></a>
+          <a href="#name"><span class=" name blue-text text-darken-4">Erfan Ashuri</span></a>
+          <a href="#email"><span class="email blue-text text-darken-4">ashoryerfan@gmail.com</span></a>
+        </div></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">shop</i>Shop</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Pages</a></li>
+        <li><a class="waves-effect" href="#!">New Items</a></li>
+        <li><a class="waves-effect" href="#!">Home</a></li>
+        <li><a class="waves-effect" href="#!">Users</a></li>
+        <li>
+        <a class="waves-effect" href="#!">Theme:</a>
+        <div class="switch">
+          <label class="switch-container-nav">
+            <span>Light </span>
+            <i class="material-icons">wb_sunny</i>
+            <input type="checkbox" id="theme-changer">
+            <span class="lever"></span>
+            <i class="material-icons">brightness_3</i>
+            <span>Dark</span>
+          </label>
+        </div>
+        </li>
+    </ul>
    <!-- ------------ Content --------------------------------------- -->
    <section class="usercontent-show container">
 
-    <ul class="collapsible user-list hide-on-large-only">      
+    <ul class="collapsible user-list hide-on-large-only">     
     </ul>
 
     <table class="striped container hide-on-med-and-down">
@@ -118,9 +133,9 @@
 
     <!-- pagination -->
     <ul class="pagination container">
-      <li class="waves-effect"><a href="#!"><i class="blue-text text-darken-3 material-icons">chevron_left</i></a></li>
+      <li class="waves-effect"><a href="#!"><i class=" material-icons">chevron_left</i></a></li>
 
-      <li class="waves-effect"><a href="#!"><i class="blue-text text-darken-3 material-icons">chevron_right</i></a></li>
+      <li class="waves-effect"><a href="#!"><i class=" material-icons">chevron_right</i></a></li>
     </ul>
 
   </section>

@@ -75,12 +75,12 @@ function showUsers(users){
 
     let newUserMob =
       `<li class="user-list-item">
-      <div class="collapsible-header user-list-item__head blue-text text-darken-4">
-        <i class="material-icons user-list-item__icon blue-text text-darken-3">arrow_drop_down_circle</i>
+      <div class="collapsible-header user-list-item__head">
+        <i class="material-icons user-list-item__icon">arrow_drop_down_circle</i>
         <span>${user.name}</span>
       </div>
 
-      <div class="collapsible-body user-list-item__body blue lighten-5">
+      <div class="collapsible-body user-list-item__body ">
         
         <div class="user-list__informations">
           <span class="user-list__informations-header">
