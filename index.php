@@ -9,10 +9,9 @@
       
       </div><div class="content-button__container">
       
-      <a class="waves-effect btn"><i class="material-icons left">code</i>programming toturial</a>
-      
       <a href="users.php" class="waves-effect btn"><i class="material-icons left">people_outline</i>users manager</a>
-    
+      <a href="./ecom.php" class="waves-effect btn"><i class="material-icons left">shop</i>go to shop</a>
+
     </section>
 
      

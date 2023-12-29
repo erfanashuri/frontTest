@@ -8,7 +8,7 @@
             <a href="#email"><span class="email blue-text text-darken-4">ashoryerfan@gmail.com</span></a>
           </div></li>
           <li><a class="waves-effect" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
-          <li><a class="waves-effect" href="#!"><i class="material-icons">shop</i>Shop</a></li>
+          <li><a class="waves-effect" href="./ecom.php"><i class="material-icons">shop</i>Shop</a></li>
           <li><a class="waves-effect" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
           <li><a class="waves-effect" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
           <li><div class="divider"></div></li>
@@ -17,7 +17,7 @@
           <li><a class="waves-effect" href="#!">Home</a></li>
           <li><a class="waves-effect" href="#!">Users</a></li>
           <li>
-          <a class="waves-effect" href="#!">Theme:</a>
+          <a class="waves-effect" href="#!">Theme</a>
           <div class="switch">
             <label class="switch-container-nav">
               <span>Light </span>

@@ -254,9 +254,121 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
     font-size: 3rem;
 }
 
+/* ecom.php */
+.ecom-screen{
+    width: 100%;
+    padding: 1rem;
+}
+/* categories */
+.categories-container{
+    min-height: 20rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.caegories__item-container{
+    max-width: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caegories__item-container img{
+    max-width: 100%;
+}
+.caegories__item-container span{
+    text-align: center;
+}
+/* card */
+.card-container{
+    /* background-color: #0d47a1; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    white-space: nowrap;
+    justify-content: stretch;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.card-container::-webkit-scrollbar {
+    display: none; /*chrome safari */
+}
+.card-title{
+    width: 8rem;
+    /* background-color: #0d47a1 !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.mycard{
+    width: 10rem;
+    background-color: #bdbdbd ;
+    min-height: 13rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+.mycard img{
+    height: 50%;
+    border-radius: 0.5rem;
 
+}
+.mycard__content-container{
+    display: flex;
+    height: 50%;
+    padding: 0.5rem;
+    flex-direction: column;
+}
+.mycard__content-title{
+    font-weight: 500;
+    color: #424242 !important;
+    font-size: 1.2rem;
+}
+.mycard__content-price{
+    font-size: 0.9rem;
+    text-align: right;
+    color: black !important;
 
-
+}
+.mycard-content__button-container{
+    width: 100%;
+    height: 100% ;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3rem;
+}
+.mycard-content__button-container a{
+    width: 45%;
+    height: 1.534rem;
+    border-radius: 0.2rem;
+    padding: 0.1rem !important;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* sales */
+.events-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.events-container img{
+    max-width: 100%;
+    border-radius: 1rem;
+}
 
 /*------------ Responsive ---------------------------------------*/
 /* Extra small devices (phones, 600px and down) */

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head id='header'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@
 
           <ul id="nav-mobile" class="right hide-on-med-and-down ">
             <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
-            <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">shop</i>Shop</a></li>
+            <li><a class="waves-effect disp-flex-center" href="./ecom.php"><i class="material-icons">shop</i>Shop</a></li>
             <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
             <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
           </ul>
