@@ -54,7 +54,7 @@
         <div class="card-title">
             Bestselling <br>
             on <br>
-            Erfan shop <br>
+            Front shop <br>
             <div class="">
             <i class="material-icons">sentiment_very_satisfied</i>
             <i class="material-icons">arrow_forward</i>

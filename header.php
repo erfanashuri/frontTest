@@ -26,10 +26,14 @@
           <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons">menu</i></a>
 
           <ul id="nav-mobile" class="right hide-on-med-and-down ">
-            <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
+
+            <li><a class="waves-effect disp-flex-center" href="./users.php"><i class="material-icons">people_outline</i>Users Manager</a></li>
+
             <li><a class="waves-effect disp-flex-center" href="./ecom.php"><i class="material-icons">shop</i>Shop</a></li>
+
             <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
-            <li><a class="waves-effect disp-flex-center" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
+
+            <li><a class="waves-effect disp-flex-center" href="./index.php"><i class="material-icons">home</i>Home</a></li>
           </ul>
         </div>
         <!-- search-->

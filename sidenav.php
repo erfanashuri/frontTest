@@ -7,10 +7,14 @@
             <a href="#name"><span class=" name blue-text text-darken-4">Erfan Ashuri</span></a>
             <a href="#email"><span class="email blue-text text-darken-4">ashoryerfan@gmail.com</span></a>
           </div></li>
-          <li><a class="waves-effect" href="#!"><i class="material-icons">dashboard</i>My Dashboard</a></li>
+          <li><a class="waves-effect" href="./users.php"><i class="material-icons">people_outline</i>Users Manager</a></li>
+
           <li><a class="waves-effect" href="./ecom.php"><i class="material-icons">shop</i>Shop</a></li>
+
           <li><a class="waves-effect" href="#!"><i class="material-icons">shopping_cart</i>Cart</a></li>
-          <li><a class="waves-effect" href="#!"><i class="material-icons">local_library</i>Blog</a></li>
+
+          <li><a class="waves-effect" href="./index.php"><i class="material-icons">home</i>Home</a></li>
+
           <li><div class="divider"></div></li>
           <li><a class="subheader">Pages</a></li>
           <li><a class="waves-effect" href="#!">New Items</a></li>
